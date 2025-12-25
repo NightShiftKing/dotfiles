@@ -1,0 +1,26 @@
+[global]
+    width = 300
+    height = (0, 300)
+    origin = top-right
+    offset = (20, 50)
+    notification_limit = 5
+
+    # Font and Look
+    font = JetBrainsMono Nerd Font 10
+    frame_width = 2
+    frame_color = "#ff0000"
+    separator_color = frame
+    corner_radius = 0
+
+[urgency_low]
+    background = "#1a1b26"
+    foreground = "#a9b1d6"
+
+[urgency_normal]
+    background = "#1a1b26"
+    foreground = "#ffffff"
+
+[urgency_critical]
+    background = "#1a1b26"
+    foreground = "#ff0000"
+    frame_color = "#ff0000"

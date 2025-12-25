@@ -1,11 +1,17 @@
 [font]
-size = 10.0
-normal = {family = "JetBrainsMono Nerd Font", style = "Regular"}
+size = 11.0
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+style = "Regular"
+
+[font.bold]
+family = "JetBrainsMono Nerd Font"
+style = "Bold"
+
 
 [window]
 opacity = 0.85
-padding = {x = 12, y = 12}
-decorations = "none"
 
 [colors]
 #default colors
@@ -17,7 +23,6 @@ foreground = "#c0caf5"
 [colors.cursor]
 text = "#000000"
 cursor = "#ff0000"
-
 #normal colors
 [colors.normal]
 black   = "#15161e"
